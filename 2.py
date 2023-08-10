@@ -2,6 +2,7 @@ import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 
+
 # 定义输入变量
 error = ctrl.Antecedent(np.arange(-10, 11, 1), 'error')
 error_dot = ctrl.Antecedent(np.arange(-10, 11, 1), 'error_dot')
